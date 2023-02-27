@@ -39,10 +39,6 @@ class MainActivity : AppCompatActivity() {
                 ++page
                 moreRequest()
             }
-            btnEnter.setOnClickListener {
-                page = 1
-                doRequest()
-            }
         }
     }
 

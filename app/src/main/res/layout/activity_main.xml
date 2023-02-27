@@ -23,16 +23,6 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="6dp"
-        android:id="@+id/btn_enter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/light_blue"
-        android:text="Enter"
-        android:textSize="30sp"
-        android:textColor="@color/white"
-        />
-    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_more"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,6 +35,5 @@
         android:id="@+id/imageRecycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:listitem="@layout/item_image"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 </LinearLayout>
