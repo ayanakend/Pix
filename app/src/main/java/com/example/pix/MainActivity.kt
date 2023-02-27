@@ -35,9 +35,9 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             })
-            btnMore.setOnClickListener {
-                ++page
-                moreRequest()
+            btnEnter.setOnClickListener {
+                page = 1
+                doRequest()
             }
         }
     }
